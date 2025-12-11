@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>MAUSAAM ki JANKARI</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <h1>Check Weather</h1>
+      <p>Enter Your Location</p>
+      <input type="text" id="cityInput" placeholder="Enter your city" />
+      <button onclick="getWeather()">🔍 Get Weather</button>
+
+      <div id="weather"></div>
+
+      <div id="forecast"></div>
+
+
+      <footer class="weather-footer">
+            <p>🔗 Weather powered by <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></p>
+            <p>© <span id="year"></span> <strong>Mausam ki Jankari</strong></p>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
